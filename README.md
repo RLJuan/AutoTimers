@@ -1,6 +1,5 @@
 # AutoTimers
 
-## Introducción
 Librería que permite la automatización de tareas mediante temporizadores por software. Sus principales características son:
 
 - Creación de tareas temporizadas cíclicas o de un solo uso (CYCLIC/ONETICK).
