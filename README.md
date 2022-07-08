@@ -1,6 +1,6 @@
 # AutoTimers
 
-Librería que permite la automatización de tareas mediante temporizadores por software. Sus principales características son:
+Librería para Arduino que permite la automatización de tareas mediante temporizadores por software. Sus principales características son:
 
 - Creación de tareas temporizadas cíclicas o de un solo uso (CYCLIC/ONETICK).
 - El refresco de los temporizadores es automático, por lo que no es necesario refrescarlos en el bucle principal (bucle 'loop()').
