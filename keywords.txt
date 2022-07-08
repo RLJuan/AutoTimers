@@ -1,0 +1,33 @@
+﻿##########################################################
+# ¤                                                    ¤ #
+#     Fichero de palabras reservadas de AutoTimers       #
+#                .Escrito por Juan R. L.                 #
+#              ~~~~~~~~~~~~~~~~~~~~~~~~~~~               #
+##########################################################
+
+# Lib #
+
+TimerTask	KEYWORD1
+AutoTimer	KEYWORD1
+
+# Macros #
+
+USE_ORIGINAL_LOOP	LITERAL1
+TICKS	LITERAL1
+AUTOSTOP	LITERAL1
+
+# Funciones #
+
+setTimeInterval	KEYWORD2
+setTimerType	KEYWORD2
+setTask	KEYWORD2
+removeTask	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+isRunning	KEYWORD2
+refreshTimers	KEYWORD2
+
+# Tipos #
+
+TimerType	LITERAL1
+
