@@ -26,8 +26,13 @@ void loop_();
 void __newLoop__();
 void delay_(uint32_t t_ms);
 inline void __threads__();
-
-void __oldLoop__() { __newLoop__(); __threads__(); }
+// 'loop' is 'oldLoop'.
+void __oldLoop__()
+{
+    __newLoop__();
+    __threads__();
+}
+// 'loop_' is called from sketch.
 void __newLoop__()
 {
     static bool isBusy = false;
@@ -38,7 +43,7 @@ void __newLoop__()
 #define loop()      loop_()
 #define delay(t_ms) delay_(t_ms)
 #define REFRESHTHREADS_AFTERLOOP() inline __threads__()
-
+// 
 void delay(uint32_t t_ms)
 {
     if(t_ms == 0) return;
