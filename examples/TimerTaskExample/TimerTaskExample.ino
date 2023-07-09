@@ -45,5 +45,4 @@ void task2()
 void task3()
 {
   Serial.println("T3");
-  
 }
